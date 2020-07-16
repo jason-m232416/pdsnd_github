@@ -45,24 +45,24 @@ def get_filters():
    
         
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    day_of_week = input('Please input the day of the week \n').title()
-    while day_of_week not in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']:
+    day_week = input('Please input the day of the week \n').title()
+    while day_week not in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']:
         print("I'm not sure what day you're referring to. Please try again!")
-        day_of_week = input('Please input the day of the week again \n').title()
-    if day_of_week == 'Monday':
-        day_of_week == 0
-    elif day_of_week == 'Tuesday':
-        day_of_week == 1
-    elif day_of_week == 'Wednesday':
-        day_of_week == 2
-    elif day_of_week == 'Thursday':
-        day_of_week == 3
-    elif day_of_week == 'Friday':
-        day_of_week == 4
-    elif day_of_week == 'Saturday':
-        day_of_week == 5
-    elif day_of_week == 'Sunday':
-        day_of_week == 6
+        day_week = input('Please input the day of the week again \n').title()
+    if day_week == 'Monday':
+        day_week == 0
+    elif day_week == 'Tuesday':
+        day_week == 1
+    elif day_week == 'Wednesday':
+        day_week == 2
+    elif day_week == 'Thursday':
+        day_week == 3
+    elif day_week == 'Friday':
+        day_week == 4
+    elif day_week == 'Saturday':
+        day_week == 5
+    elif day_week == 'Sunday':
+        day_week == 6
         
 
     print('-'*40)

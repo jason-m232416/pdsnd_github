@@ -2,7 +2,7 @@
 7-14-2020
 
 ### Project Title
-Bikeshare Project
+The Bikeshare Project
 
 ### Description
 The project allows user to pull bikeshare data from a certain set of stations in three different cities.
